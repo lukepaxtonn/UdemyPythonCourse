@@ -5,7 +5,7 @@ def randomNumberGenerator(maxNumber):
     """_summary_
     
     Args:
-        maxNumber (Int): Maximum number that can be generated
+        `maxNumber` (Int): Maximum number that can be generated
     """
     number = random.randrange(0, maxNumber)
     
@@ -13,4 +13,3 @@ def randomNumberGenerator(maxNumber):
 
 max = input('Please enter a maximum number: ')
 print(randomNumberGenerator(int(max)))
-help(randomNumberGenerator)
