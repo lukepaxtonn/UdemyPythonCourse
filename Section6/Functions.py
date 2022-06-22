@@ -1,4 +1,4 @@
-def fibonacci(n):
+def fibonacci(n: int) -> int:
     """
     Fibonacci function.
 
@@ -27,6 +27,6 @@ def fibonacci(n):
     return result
 
 x = input("Enter a postive integer: ")
-for i in range(int(x)):
-    print(i, fibonacci(i))
+for i in range(1,int(x)):
+    print('\u001b[36m',i, fibonacci(i))
         

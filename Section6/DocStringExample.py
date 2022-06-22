@@ -4,8 +4,10 @@ import random
 def randomNumberGenerator(maxNumber): 
     """_summary_
     
-    Args:
+    param:
         `maxNumber` (Int): Maximum number that can be generated
+    retruns:
+        `number` (int): A random number between 0 and maxNumber
     """
     number = random.randrange(0, maxNumber)
     
