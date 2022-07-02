@@ -1,3 +1,4 @@
+
 def fibonacci(n: int) -> int:
     """
     Fibonacci function.
@@ -25,6 +26,8 @@ def fibonacci(n: int) -> int:
         n_minus1 = result
     
     return result
+
+# This makes sure that the program works on all 3 os
 
 x = input("Enter a postive integer: ")
 for i in range(1,int(x)):
